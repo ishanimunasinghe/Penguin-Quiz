@@ -1,0 +1,58 @@
+html {
+    background: url("https://i.pinimg.com/originals/ba/40/55/ba4055f27c5fa6ab579830e4edc373d1.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    background: rgba(106, 162, 247, 0.6);
+    width: 600px;
+    padding: 50px 100px;
+    margin: 25px auto;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.question_num {
+    color: rgb(0, 0, 100);
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+
+#link { 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 17px;
+} 
+
+a { 
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: rgb(77, 141, 237);
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center; 
+}
+
+button:hover {
+    background-color: rgb(61, 109, 180);
+}

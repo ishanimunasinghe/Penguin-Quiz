@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Create a Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1>The Ultimate Penguin Quiz</h1>
+    <hr />
+
+    <h2 class="question_num"><u>Question 1:</u></h2>
+    <p>What is a group of penguins called on land?</p>
+    <p> 
+      <input id="Q1" type="text" />
+      <img id="q1-mark"
+        src="https://static.thenounproject.com/png/1023800-200.png"
+        width="30"
+      />
+    </p>
+
+    <h2 class="question_num"><u>Question 2:</u></h2>
+    <p>How old are the oldest penguin fossils? (million years)</p>
+    <p>
+      <input id="Q2" type="number" />
+      <img id="q2-mark"
+        src="https://static.thenounproject.com/png/1023800-200.png"
+        width="30"
+      />
+    </p>
+
+    <h2 class="question_num"><u>Question 3:</u></h2>
+    <p>How fast can an Emperor Penguin swim? (km/h)</p>
+    <img
+      src="https://www.thoughtco.com/thmb/YRAtUYwPNCMarqexmPZl9uYtt3c=/2125x1195/smart/filters:no_upscale()/GettyImages-dv735012-0663e2057be948d1b8a906c8fdfa97a2.jpg"
+      width="400 px"
+    />
+    <p>
+      <input id="Q3" type="number" />
+      <img id="q3-mark"
+        src="https://static.thenounproject.com/png/1023800-200.png"
+        width="30"
+      />
+    </p>
+
+    <h2 class="question_num"><u>Question 4:</u></h2>
+    <p>
+      Name the only penguin speices that lives in the Northern Hemisphere:
+    </p>
+    <p>
+      <input id="Q4" type="text" />
+      <img id="q4-mark"
+        src="https://static.thenounproject.com/png/1023800-200.png"
+        width="30"
+      />
+    </p>
+
+    <h2 class="question_num"><u>Question 5:</u></h2>
+    <p>About how tall is the smallest penguin? (cm) </p>
+    <img 
+      src="https://i.pinimg.com/originals/11/5c/c5/115cc5d432cf6fae87eca09b54087ad1.jpg"
+      width="600 px"
+    />
+    <p>
+      <input id="Q5" type="number" />
+      <img id="q5-mark"
+        src="https://static.thenounproject.com/png/1023800-200.png"
+        width="30"
+      />
+    </p>
+
+    <p id="link">
+      <a
+        href="https://www.penguinsinternational.org/penguin-species/?gclid=EAIaIQobChMI98_Z85mK-AIVk8LCBB2aUwzFEAAYASAAEgLqufD_BwE"
+        target="_blank"
+        >Learn more</a
+      >
+      about different species of penguins on Penguins International.
+    </p>
+    <p><button id="mark-btn">Mark Quiz</button></p>
+
+    <hr />
+    <h2>Quiz Results: <span id="results">-/5</span> (<span id="percentage">-%</span>)</h2>
+    <p id="feedback"></p>
+
+    <!-- Load JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
